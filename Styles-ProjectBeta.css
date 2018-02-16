@@ -2,9 +2,45 @@ body {
     background-color: black;
 }
 h1 {
-    color: red;
+    color: #CA1F1Fed;
     text-align: center;
+}
+h2 {
+    color: #CA1F1Fed;
+}
+#mainhead {
+    color:#CA1F1Fed;
+    text-align: center;
+    border: 2px solid red;
+    padding: 30px;
+    margin: 60px;
+}
+#mainhead:hover {
+    color:#E25011
 }
 p {
     color: whitesmoke;
+}
+a:link {
+    color:#CA1F1Fed;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color:#711B15;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color:#E25011
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+#caption {
+    text-align: center;
 }
